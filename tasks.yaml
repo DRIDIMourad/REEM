@@ -1,0 +1,48 @@
+cnn_tasks:
+  - name: cnn_1
+    wcet_network: 100.0
+    period: 200.0
+    deadline: 200.0
+    priority: 1
+    tpcs: [0]
+    num_layers: 2
+    wcet_layer: [40.0, 60.0]
+    size_layer: [1500, 1700]
+    num_kernels: 2
+    wcet_kernel: [40.0, 60.0]
+    size_kernel: [1400, 1600]
+    num_blocks: 5
+    wcet_block: [20.0, 20.0, 20.0, 20.0, 20.0]
+    size_block: [512, 512, 512, 512, 512]
+
+  - name: cnn_2
+    wcet_network: 80.0
+    period: 150.0
+    deadline: 150.0
+    priority: 2
+    tpcs: [0]
+    num_layers: 2
+    wcet_layer: [30.0, 50.0]
+    size_layer: [600, 1000]
+    num_kernels: 2
+    wcet_kernel: [30.0, 50.0]
+    size_kernel: [500, 1000]
+    num_blocks: 5
+    wcet_block: [15.0, 15.0, 15.0, 15.0, 15.0]
+    size_block: [256, 256, 256, 256, 256]
+
+  - name: cnn_3
+    wcet_network: 120.0
+    period: 250.0
+    deadline: 250.0
+    priority: 3
+    tpcs: [1]
+    num_layers: 3
+    wcet_layer: [50.0, 40.0, 30.0]
+    size_layer: [1600, 1400, 1200]
+    num_kernels: 3
+    wcet_kernel: [50.0, 40.0, 30.0]
+    size_kernel: [1500, 1300, 1100]
+    num_blocks: 6
+    wcet_block: [10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+    size_block: [256, 256, 256, 256, 256, 256]
