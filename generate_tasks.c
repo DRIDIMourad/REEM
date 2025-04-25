@@ -1,7 +1,27 @@
+
+
+
+/*
+ * generate_tasks.c
+ *
+ * Description:
+ *   Program to automatically generate the input file 'tasks.txt' for GPUTaskAnalyzer.
+ *   Each line represents a CNN configuration with its WCET and resource usage parameters.
+ *
+ * Usage:
+ *   gcc generate_tasks.c -o generate_tasks
+ *   ./generate_tasks
+ *
+ * Output:
+ *   tasks.txt in the current directory
+ *
+ * Author: Mourad Dridi
+ * Date: 2025-04-25
+ */
+
 // generate_tasks.c
 // Generates 'tasks.txt' with one line per CNN:
 // name wcet_network num_layers [wcet_layer...] num_kernels [wcet_kernel...] num_blocks [wcet_block...] period deadline priority tpc_id [size_layer...] [size_kernel...] [size_block...]
-
 #include <stdio.h>
 #include <stdlib.h>
 
