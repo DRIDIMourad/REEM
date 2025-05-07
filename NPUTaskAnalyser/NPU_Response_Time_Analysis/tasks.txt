@@ -1,0 +1,13 @@
+
+0 0 3 NPU 3 10 20 0
+0 1 2 NPU 4 12 25 1 0
+0 2 1 CPU 2 8  30 1 1
+1 0 2 CPU 1 5  15 0
+1 1 1 NPU 3 9  20 1 0
+
+
+# Format:
+# CNN_ID TASK_ID PRIORITY NODE SIZE C_i D_i NB_PRED [PRED_IDS...]
+# CNN 0 : trois couches
+# CNN 1 : deux couches
+
