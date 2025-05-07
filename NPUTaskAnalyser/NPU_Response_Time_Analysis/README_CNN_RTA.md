@@ -114,4 +114,4 @@ MIT License – free for academic and industrial use.
 
 ## 👤 Author
 
-Developed by [Votre Nom]. For questions or contributions, open an issue or contact directly.
+Developed by Mourad DRIDI. For questions or contributions, open an issue or contact directly.
